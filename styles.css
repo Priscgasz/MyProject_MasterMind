@@ -6,7 +6,7 @@
 body{
     width:100vw;
     height:100vh; 
-    background : url(/hacker\ 1.jpg);
+    background : url(./hacker\ 1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -115,7 +115,7 @@ h2{
 }
 
 .orangeCross{
-    background-image: url(Orange_cross.png);
+    background-image: url(./Orange_cross.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -125,7 +125,7 @@ h2{
 }
 
 .greenValid{
-    background-image: url(/image\ validé.png);
+    background-image: url(./image\ validé.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;

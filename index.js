@@ -11,7 +11,7 @@ let turn = 1;
 
 const colors = ['green', 'purple', 'red', 'yellow','blue','grey'];
 
-let audiotest = new Audio("/Johnny Jewel - The Hacker [Music Inspired By Ghost In The Shell].mp3");
+let audiotest = new Audio("./Johnny Jewel - The Hacker [Music Inspired By Ghost In The Shell].mp3");
 audiotest.addEventListener('canplaythrough',()=>{
     audiotest.play();
 })
