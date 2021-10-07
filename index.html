@@ -10,23 +10,23 @@
 
 <body>
     <header>
-        <h1>Master Mind</h1>   
+        <h1>HackerMind</h1>   
     </header>
     
     <div id="container">
         <div id="pick">
-            <h2>Pick one color</h2>
+            <h2>Colors to pick</h2>
                 <div class= "colorOptions">
                     <div class="color blue" id="blue"></div>
                     <div class="color red" id="red"></div>
                     <div class="color green" id="green"></div>
                     <div class="color yellow" id="yellow"></div>
                     <div class="color purple" id="purple"></div>
-                    <div class="color black" id="black"></div>
+                    <div class="color grey" id="grey"></div>
                 </div>
         </div>
         <div id="choose">
-            <h2>Choose your code</h2>
+            <h2>Combination Guess Board</h2>
             <div class="guess" id="guess-1">
                 <div class="secretColor"></div>
                 <div class="secretColor"></div>
@@ -65,7 +65,7 @@
             </div>
         </div>
         <div id="check">
-            <h2>Check your code</h2>
+            <h2>Results</h2>
             <div class="hints" id="check-1">
                 <div class="hint" id="1"></div>
                 <div class="hint" id="2"></div>
@@ -104,6 +104,11 @@
             </div>
         </div>
     </div>
+
+    <div id="restartbtn">
+        <a id="play" class="btn" href="/index.html">TRY AGAIN</a>
+    </div>
     <script type= "text/javascript" src="/index.js"></script>
+    
 </body>
 </html>

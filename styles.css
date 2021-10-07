@@ -6,9 +6,9 @@
 body{
     width:100vw;
     height:100vh; 
-    background : url(Images/Cerveau.png);
+    background : url(/hacker\ 1.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 header{
@@ -25,17 +25,20 @@ header{
 h1{
     margin-top: 30px; 
     text-align: center;
+    color:aliceblue;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 h2{
     text-align: center;
     margin-bottom: 50px;
+    color: aliceblue;
 }
 
 #pick{
     display: flex; 
     flex-direction: column;
-    background-color: lightgrey;
     padding: 40px;
     align-items: center;
     flex-grow: 2;
@@ -51,7 +54,6 @@ h2{
 #choose{
     display: flex; 
     flex-direction: column;
-    background-color:whitesmoke;
     padding: 40px;
     align-items: center;
     flex-grow: 2;
@@ -73,7 +75,6 @@ h2{
 #check{
     display: flex; 
     flex-direction: column;
-    background-color: lightcyan;
     padding: 40px;
     align-items: center;
     flex-grow: 2;
@@ -82,6 +83,8 @@ h2{
 .hints{
     display: flex;
     flex-direction: row;
+    background-color:black;
+    width:140px; 
 }
 
 .hint {
@@ -104,25 +107,30 @@ h2{
 .green{
     background-color: green;
 }
-.black{
-    background-color: black;
+.grey{
+    background-color:grey;
 }
 .purple{
     background-color:plum;
 }
 
-.redCross{
-    background-image: url(Images/redcross.png);
+.orangeCross{
+    background-image: url(Orange_cross.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    width: 30px;
+    height: 30px;
+    padding-left: 5px;
 }
 
 .greenValid{
-    background-image: url(/Images/image\ validé.png);
+    background-image: url(/image\ validé.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    width: 30px;
+    height: 30px;
 }
 
 #intro {
@@ -134,7 +142,7 @@ h2{
     background-color: #fff;
     border-radius: 10px;
     padding: 20px;
-    border: 20px ridge grey;
+    border: 5px ridge grey;
     margin-left:100px;
     margin-right:100px;
   }
@@ -145,14 +153,30 @@ h2{
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    margin-right: 450px;
-    margin-left: 450px;
+    margin-right: 550px;
+    margin-left: 550px;
     padding: 10px;
     border-radius: 10px;
     font-size: 1.5rem;
-    border: 10px outset green;
+    border: 10px outset grey;
     color: black;
-    background-color: white;
+    background-color: grey;
+  }
+
+  #restartbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 550px;
+    margin-left: 550px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    border: 10px outset grey;
+    color: black;
+    background-color: grey;
   }
 
   #rules{
@@ -163,11 +187,14 @@ h2{
       margin-left:200px; 
       margin-right:200px;
       font-style: italic;
+      text-decoration: underline;
   }
 
-  #play{
+  #play.btn{
     text-align: center;
     text-decoration: none;
-    color:green;
+    color: white;
     font-size: large;
+    padding: 5px;
   }
+
