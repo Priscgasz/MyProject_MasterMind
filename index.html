@@ -12,102 +12,24 @@
     <header>
         <h1>HackerMind</h1>   
     </header>
-    
-    <div id="container">
-        <div id="pick">
-            <h2>Colors to pick</h2>
-                <div class= "colorOptions">
-                    <div class="color blue" id="blue"></div>
-                    <div class="color red" id="red"></div>
-                    <div class="color green" id="green"></div>
-                    <div class="color yellow" id="yellow"></div>
-                    <div class="color purple" id="purple"></div>
-                    <div class="color grey" id="grey"></div>
-                </div>
-        </div>
-        <div id="choose">
-            <h2>Combination Guess Board</h2>
-            <div class="guess" id="guess-1">
-                <div class="secretColor"></div>
-                <div class="secretColor"></div>
-                <div class="secretColor"></div>
-                <div class="secretColor"></div>
-            </div>
-            <div class="guess" id="guess-2">
-                <div class="secretColor"></div>
-                <div class="secretColor"></div>
-                <div class="secretColor"></div>
-                <div class="secretColor"></div>
-            </div>
-            <div class="guess" id="guess-3">
-                <div class="secretColor"></div>
-                <div class="secretColor"></div>
-                <div class="secretColor"></div>
-                <div class="secretColor"></div>
-            </div>
-            <div class="guess" id="guess-4">
-                <div class="secretColor"></div>
-                <div class="secretColor"></div>
-                <div class="secretColor"></div>
-                <div class="secretColor"></div>
-            </div>
-            <div class="guess" id="guess-5">
-                <div class="secretColor"></div>
-                <div class="secretColor"></div>
-                <div class="secretColor"></div>
-                <div class="secretColor"></div>
-            </div>
-            <div class="guess" id="guess-6">
-                <div class="secretColor"></div>
-                <div class="secretColor"></div>
-                <div class="secretColor"></div>
-                <div class="secretColor"></div>
-            </div>
-        </div>
-        <div id="check">
-            <h2>Results</h2>
-            <div class="hints" id="check-1">
-                <div class="hint" id="1"></div>
-                <div class="hint" id="2"></div>
-                <div class="hint" id="3"></div>
-                <div class="hint" id="4"></div>
-            </div>
-            <div class="hints" id="check-2">
-                <div class="hint" id="5"></div>
-                <div class="hint" id="6"></div>
-                <div class="hint" id="7"></div>
-                <div class="hint" id="8"></div>
-            </div>
-            <div class="hints" id="check-3">
-                <div class="hint" id="9"></div>
-                <div class="hint" id="10"></div>
-                <div class="hint" id="11"></div>
-                <div class="hint" id="12"></div>
-            </div>
-            <div class="hints" id="check-4">
-                <div class="hint" id="13"></div>
-                <div class="hint" id="14"></div>
-                <div class="hint" id="15"></div>
-                <div class="hint" id="16"></div>
-            </div>
-            <div class="hints" id="check-5">
-                <div class="hint" id="17"></div>
-                <div class="hint" id="18"></div>
-                <div class="hint" id="19"></div>
-                <div class="hint" id="20"></div>
-            </div>
-            <div class="hints" id="check-6">
-                <div class="hint" id="21"></div>
-                <div class="hint" id="22"></div>
-                <div class="hint" id="23"></div>
-                <div class="hint" id="24"></div>
-            </div>
-        </div>
+    <div id="intro">
+        <h3> Rules of the game :</h3>
+        <p id="rules">
+            A former student hacked the Ironhack team in order to block the access to the learning content...To get the access back (<b>and to be hired as a junior developer in Professor Guillaume's startup</b>), try to guess the combination of 4 colors that will break the hacker's code ! <br />
+            To handle it, click on the color button you want to pick. This color will be automatically added to the combination guess board (be careful : once you chosed one, you can't remove it). <br />
+            Check the Results to know if your combination fits the one to guess ! <br />
+            <img src="/image validé.png" alt="green check" height=30px width=35px> will be displayed if you selected the right color at the correct place <br /> 
+            <img src="/Orange_cross.png" alt="orange cross" height= 30px width=40px> will be displayed if you selected the right color but at the incorrect place <br /> 
+            <br />
+            For now, click on LET'S START to take your chance ! <br /> 
+            Once you'll completed it all, you can try it again by clicking on the "TRY AGAIN" button. 
+        </p>
     </div>
 
-    <div id="restartbtn">
-        <a id="play" class="btn" href="/index.html">TRY AGAIN</a>
+    <div id="introbtn">
+        <a id="play" class="btn" href="/index2.html">LET'S START</a>
     </div>
+
     <script type= "text/javascript" src="/index.js"></script>
     
 </body>
