@@ -1,14 +1,29 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0; 
+    padding: 0;
 }
-body{
-    width:100vw;
-    height:100vh; 
-    background : url("./hacker_1.jpg");
+
+#page1 {
+  width:100vw;
+  height:100vh; 
+    background : url(./hacker5.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+    
+#page2 {
+  width:100vw;
+  height:100vh; 
+    background : url(./background\ hacking\ pro.PNG);
+    background-size:cover;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#background {
+  background-image: "./hacker4.jpg";
+  opacity: 0,2;
 }
 
 header{
@@ -19,21 +34,30 @@ header{
     display: flex;
     flex-direction: row; 
     width: 100%;
-    height: 100% - 60px;
-}
+    height: 100% - 100px;
+  }
 
 h1{
-    margin-top: 30px; 
+    margin-top: 80px; 
     text-align: center;
     color:aliceblue;
-    font-size: 50px;
+    font-size: 75px;
     font-weight: bold;
 }
 
+h5{
+  margin-top: 80px; 
+  text-align: center;
+  color:grey;
+  font-size: 75px;
+  font-weight: bold;
+}
+
 h2{
+    font-size: 35px;
     text-align: center;
     margin-bottom: 50px;
-    color: aliceblue;
+    color:grey;
 }
 
 #pick{
@@ -42,7 +66,10 @@ h2{
     padding: 40px;
     align-items: center;
     flex-grow: 2;
+    margin-top: 100px;
 }
+
+
 
 .color{
     width: 30px;
@@ -57,11 +84,13 @@ h2{
     padding: 40px;
     align-items: center;
     flex-grow: 2;
+    margin-top: 100px;
 }
 
 .guess {
     display: flex;
     flex-direction: row;
+    
 }
 
 .secretColor{
@@ -69,7 +98,7 @@ h2{
     height: 30px;
     border-radius: 15px;
     margin: 5px;
-    background-color: white;
+    background-color: ivory;
 }
 
 #check{
@@ -78,13 +107,15 @@ h2{
     padding: 40px;
     align-items: center;
     flex-grow: 2;
+    margin-top: 100px;
+   
 }
 
 .hints{
     display: flex;
     flex-direction: row;
-    background-color:black;
-    width:140px; 
+    width:160px; 
+   
 }
 
 .hint {
@@ -92,6 +123,7 @@ h2{
     height: 30px;
     border-radius: 15px;
     margin: 5px;
+    background-color: ivory;
 }
 
 
@@ -143,34 +175,32 @@ h2{
     border-radius: 10px;
     padding: 20px;
     border: 5px ridge grey;
-    margin-left:100px;
-    margin-right:100px;
+    margin-top: 100px;
+    margin-left:400px;
+    margin-right:400px;
   }
 
   #introbtn {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    margin-right: 550px;
-    margin-left: 550px;
+    margin-top: 100px;
+    margin-left: 900px;
+    margin-right: 900px;
+    width: 160px;
     padding: 10px;
     border-radius: 10px;
     font-size: 1.5rem;
     border: 10px outset grey;
-    color: black;
     background-color: grey;
   }
 
   #restartbtn {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    width: 160px;
     margin-top: 20px;
-    margin-right: 550px;
-    margin-left: 550px;
+    margin-left: 900px;
+    margin-right: 900px;
     padding: 10px;
     border-radius: 10px;
     font-size: 1.5rem;
@@ -182,12 +212,14 @@ h2{
   #rules{
       text-align: center;
       margin-top: 20px;
+      font-size: 20px;
   }
   h3{
       margin-left:200px; 
       margin-right:200px;
       font-style: italic;
       text-decoration: underline;
+      font-size: 30px;
   }
 
   #play.btn{
